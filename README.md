@@ -100,7 +100,7 @@ tbl(sc, "web_log") %>% group_by(host) %>% summarise(freq = n()) %>% top_n(n = 30
 }
 ```
 
-![](README_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-1.png)
+![](unnamed-chunk-1-1.png)
 
 ``` r
 # task 2 using 'request' as the key find out the cumulative frequency of
@@ -134,7 +134,7 @@ tbl(sc, "web_log") %>% group_by(request) %>% summarise(freq = n()) %>% top_n(n =
 }
 ```
 
-![](README_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-2.png)
+![](unnamed-chunk-1-2.png)
 
 ``` r
 # task 3 using 'HTTP_reply' as the key find out the cumulative frequency of
@@ -166,7 +166,7 @@ tbl(sc, "web_log") %>% group_by(HTTP_reply) %>% summarise(freq = n()) %>% collec
     }
 ```
 
-![](README_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-1-3.png)
+![](unnamed-chunk-1-3.png)
 
 ``` r
 # Tasks using SQL task1
